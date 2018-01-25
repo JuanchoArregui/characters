@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const expressLayout = require('express-ejs-layouts');
 
